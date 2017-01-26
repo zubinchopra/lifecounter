@@ -10,227 +10,200 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="edu.washington.zubinc.lifecounter.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Player 1"
-        android:id="@+id/player1"
-        android:layout_marginTop="54dp"
+        android:orientation="vertical"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true">
+        <LinearLayout
+            android:id="@+id/player1"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="100dp">
 
-    <EditText
-        android:text="20"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/player1"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="15dp"
-        android:id="@+id/health1" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Player I "/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="20"
+                android:layout_marginRight="20dp"
+                android:textAlignment="center"
+                android:id="@+id/p1" />
 
-    <TextView
-        android:text="Player 2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/player2"
-        android:layout_marginTop="74dp"
-        android:layout_below="@+id/player1"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+            <Button
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:text="-1"
+                android:id="@+id/button1"
+                android:backgroundTint="#ff0000"/>
+            <Button
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:text="+1"
+                android:id="@+id/button2"
+                android:backgroundTint="#32CD32"/>
+            <Button
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:text="-5"
+                android:id="@+id/button3"
+                android:backgroundTint="#ff0000"/>
+            <Button
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:text="+5"
+                android:id="@+id/button4"
+                android:backgroundTint="#32CD32"/>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="20dp"
+            android:id="@+id/player2">
 
-    <EditText
-        android:text="20"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/health2"
-        android:layout_below="@+id/player2"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Player II "/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="20"
+                android:layout_marginRight="20dp"
+                android:textAlignment="center"
+                android:id="@+id/p2" />
 
-    <TextView
-        android:text="Player 3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="80dp"
-        android:id="@+id/player3"
-        android:layout_below="@+id/player2"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+            <Button
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:text="-1"
+                android:id="@+id/button5"
+                android:backgroundTint="#ff0000"/>
+            <Button
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:text="+1"
+                android:id="@+id/button6"
+                android:backgroundTint="#32CD32"/>
+            <Button
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:text="-5"
+                android:id="@+id/button7"
+                android:backgroundTint="#ff0000"/>
+            <Button
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:text="+5"
+                android:id="@+id/button8"
+                android:backgroundTint="#32CD32"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/player3"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="20dp">
 
-    <EditText
-        android:text="20"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/player3"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:id="@+id/health3" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Player III "/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="20"
+                android:layout_marginRight="20dp"
+                android:textAlignment="center"
+                android:id="@+id/p3" />
 
-    <TextView
-        android:text="Player 4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/player3"
-        android:layout_alignRight="@+id/player3"
-        android:layout_alignEnd="@+id/player3"
-        android:layout_marginTop="85dp"
-        android:id="@+id/player4" />
+            <Button
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:text="-1"
+                android:id="@+id/button9"
+                android:backgroundTint="#ff0000"/>
+            <Button
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:text="+1"
+                android:id="@+id/button10"
+                android:backgroundTint="#32CD32"/>
+            <Button
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:text="-5"
+                android:id="@+id/button11"
+                android:backgroundTint="#ff0000"/>
+            <Button
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:text="+5"
+                android:id="@+id/button12"
+                android:backgroundTint="#32CD32"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/player4"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="20dp">
 
-    <EditText
-        android:text="20"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/player4"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:id="@+id/health4" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Player IV "/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="20"
+                android:layout_marginRight="20dp"
+                android:textAlignment="center"
+                android:id="@+id/p4" />
 
-    <Button
-        android:text="-"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/button2"
-        android:layout_alignBottom="@+id/button1"
-        android:layout_toRightOf="@+id/button1"
-        android:layout_toEndOf="@+id/button1"
-        android:layout_alignTop="@+id/button1" />
-
-    <Button
-        android:text="-5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/button4"
-        android:layout_below="@+id/button2"
-        android:layout_toRightOf="@+id/button1"
-        android:layout_toEndOf="@+id/button1" />
-
-    <Button
-        android:text="+5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/button3"
-        android:layout_below="@+id/button1"
-        android:layout_toRightOf="@+id/player2"
-        android:layout_toEndOf="@+id/player2" />
-
-    <Button
-        android:text="+"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/button1"
-        android:layout_above="@+id/player2"
-        android:layout_toRightOf="@+id/player1"
-        android:layout_toEndOf="@+id/player1" />
-
-    <Button
-        android:text="-"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/health2"
-        android:layout_toRightOf="@+id/player2"
-        android:layout_toEndOf="@+id/player2"
-        android:id="@+id/button5" />
-
-    <Button
-        android:text="+"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/button5"
-        android:layout_alignRight="@+id/button4"
-        android:layout_alignEnd="@+id/button4"
-        android:id="@+id/button8" />
-
-    <Button
-        android:text="+5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/button9"
-        android:layout_below="@+id/button8"
-        android:layout_toRightOf="@+id/button5"
-        android:layout_toEndOf="@+id/button5" />
-
-    <Button
-        android:text="-5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/button7"
-        android:layout_alignBaseline="@+id/button9"
-        android:layout_alignBottom="@+id/button9"
-        android:layout_alignLeft="@+id/button5"
-        android:layout_alignStart="@+id/button5" />
-
-    <Button
-        android:text="-"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/health3"
-        android:layout_toRightOf="@+id/player3"
-        android:layout_toEndOf="@+id/player3"
-        android:id="@+id/button10" />
-
-    <Button
-        android:text="+"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/button10"
-        android:layout_toRightOf="@+id/button10"
-        android:layout_toEndOf="@+id/button10"
-        android:id="@+id/button11" />
-
-    <Button
-        android:text="-5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/button10"
-        android:layout_alignLeft="@+id/button10"
-        android:layout_alignStart="@+id/button10"
-        android:id="@+id/button12" />
-
-    <Button
-        android:text="+5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/button11"
-        android:layout_toRightOf="@+id/button12"
-        android:layout_toEndOf="@+id/button12"
-        android:id="@+id/button13" />
-
-    <Button
-        android:text="-"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/player4"
-        android:layout_toRightOf="@+id/player4"
-        android:layout_toEndOf="@+id/player4"
-        android:id="@+id/button14" />
-
-    <Button
-        android:text="+"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/button14"
-        android:layout_toRightOf="@+id/button14"
-        android:layout_toEndOf="@+id/button14"
-        android:id="@+id/button15" />
-
-    <Button
-        android:text="-5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/button16"
-        android:layout_below="@+id/button14"
-        android:layout_alignLeft="@+id/button14"
-        android:layout_alignStart="@+id/button14" />
-
-    <Button
-        android:text="+5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/button16"
-        android:layout_toRightOf="@+id/button14"
-        android:layout_toEndOf="@+id/button14"
-        android:id="@+id/button17" />
-
+            <Button
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:text="-1"
+                android:id="@+id/button13"
+                android:backgroundTint="#ff0000"/>
+            <Button
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:text="+1"
+                android:id="@+id/button14"
+                android:backgroundTint="#32CD32"/>
+            <Button
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:text="-5"
+                android:id="@+id/button15"
+                android:backgroundTint="#ff0000"/>
+            <Button
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:text="+5"
+                android:id="@+id/button16"
+                android:backgroundTint="#32CD32"/>
+        </LinearLayout>
+    </LinearLayout>
 </RelativeLayout>

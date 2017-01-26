@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/Macbook/Documents/INFO 448/biggobutton/Lifecounter/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
+        <dex dex="/Users/Macbook/Documents/INFO 448/biggobutton/Lifecounter/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.1.0_7d920987522b3c438b5cce575aad9fb524530c93.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Macbook/Documents/INFO 448/biggobutton/Lifecounter/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
+        <dex dex="/Users/Macbook/Documents/INFO 448/biggobutton/Lifecounter/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.1.0_dc644e8f7c54fc996d1cd99450e3d73b2f9d6b9c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Macbook/Documents/INFO 448/biggobutton/Lifecounter/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
+        <dex dex="/Users/Macbook/Documents/INFO 448/biggobutton/Lifecounter/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.1.0_4b2b1a08eb4d1ad35382362c41bdce69108a5042.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Macbook/Documents/INFO 448/biggobutton/Lifecounter/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
+        <dex dex="/Users/Macbook/Documents/INFO 448/biggobutton/Lifecounter/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.1.0_bb373f7b61664c2b27abdd318cb77c04eaa25c03.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Macbook/Documents/INFO 448/biggobutton/Lifecounter/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2c99c1ba05874b87a555f76c7d60b930c3a26399">
+        <dex dex="/Users/Macbook/Documents/INFO 448/biggobutton/Lifecounter/app/build/intermediates/pre-dexed/debug/instant-run_afcd428f4bde39c8dbaa0bb0023149f1cb70cc42.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Macbook/Documents/INFO 448/biggobutton/Lifecounter/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/Macbook/Documents/INFO 448/biggobutton/Lifecounter/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.1.0_acdde84b2ceff5bdf71ff9f7879bf5b41314cd8d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Macbook/Documents/INFO 448/biggobutton/Lifecounter/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
+        <dex dex="/Users/Macbook/Documents/INFO 448/biggobutton/Lifecounter/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.1.0_fb8161e058ad8e565a103ad6a167f0144fabdd3c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Macbook/Documents/INFO 448/biggobutton/Lifecounter/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
+        <dex dex="/Users/Macbook/Documents/INFO 448/biggobutton/Lifecounter/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.1.0_788ff4ad8e7f690aad1b3cf37bc935bb7244b4c5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Macbook/Documents/INFO 448/biggobutton/Lifecounter/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
+        <dex dex="/Users/Macbook/Documents/INFO 448/biggobutton/Lifecounter/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.1.0_b06629f17afe9b6aa14b58823c55c3c0c7390b8b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Macbook/Documents/INFO 448/biggobutton/Lifecounter/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b226c0a2633cb96e2c84e6f27a758dfa54c9adb9">
+        <dex dex="/Users/Macbook/Documents/INFO 448/biggobutton/Lifecounter/app/build/intermediates/pre-dexed/debug/instant-run-bootstrap_068a27cb749276925de21b529e87914cfb2af1fc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Macbook/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.1.0/support-annotations-25.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
+        <dex dex="/Users/Macbook/Documents/INFO 448/biggobutton/Lifecounter/app/build/intermediates/pre-dexed/debug/support-annotations-25.1.0_0f0303f3f02476e314ff7edd1b5e9cff179b5ced.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Macbook/Documents/INFO 448/biggobutton/Lifecounter/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="aee64634871d88a419d59eb743c1258a60f19700">
+        <dex dex="/Users/Macbook/Documents/INFO 448/biggobutton/Lifecounter/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.1.0_2b3ac1a09ca018160471c328382872e4b5bec42a.jar" />
+    </item>
+
+</items>
